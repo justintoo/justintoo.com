@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.1.1.343" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="justintoo.com" resolutions="1x" timestamp="1458144560028">
+<manifest alg="2" build="2015.1.1.343" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="justintoo.com" resolutions="1x" timestamp="1458145918526">
   <folder name="css">
     <file name="site_global.css" crc="23585068"/>
-    <file name="index.css" crc="403876696" ref="index"/>
+    <file name="index.css" crc="370822313" ref="index"/>
     <file name="iefonts_index.css" crc="4029183858" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -15,7 +15,7 @@
   </folder>
   <folder name="images">
     <file name="justin-too--home-favicon.ico" crc="151841559" ref="index"/>
-    <file name="background-justin_too-monument_valley.jpg" crc="201823899" ref="index"/>
+    <file name="background-justin_too-monument_valley.jpg" crc="3959355374" ref="index"/>
     <file name="logo-justin-too.png" crc="3888204349" seo="true" ref="index"/>
     <file name="case.png" crc="320954353" seo="true" ref="index"/>
     <file name="icon.png" crc="4129082871" seo="true" ref="index"/>
@@ -25,5 +25,5 @@
     <file name="twitter.png" crc="4102706121" ref="index"/>
     <file name="picture-justin_too.jpg" crc="229998841" seo="true" ref="index"/>
   </folder>
-  <file name="index.html" crc="3826958765" seo="true" mt="1458144557821" redirect="true"/>
+  <file name="index.html" crc="4255717710" seo="true" mt="1458145854672" redirect="true"/>
 </manifest>

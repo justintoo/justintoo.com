@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #000018;
-	background-color: #12AB58;
+	color: #000016;
+	background-color: #1A4CA9;
 }
 
 #page
@@ -75,10 +75,77 @@
 	min-height: 67px;
 }
 
+#u1279
+{
+	z-index: 224;
+	height: 399px;
+	border-color: #000000;
+	background: transparent url("../images/background-justin_too-monument_valley.jpg") no-repeat center top;
+	background-size: cover;
+}
+
+#u1279-bw
+{
+	z-index: 224;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 100px;
+}
+
+#pu1585
+{
+	width: 0.01px;
+	margin-left: 378px;
+	margin-top: 64px;
+}
+
+#u1585
+{
+	z-index: 232;
+	width: 45px;
+	height: 45px;
+	border-width: 0px;
+	border-color: transparent;
+	border-radius: 100px;
+	position: relative;
+	margin-right: -10000px;
+	background: #3B5998 url("../images/facebook.png") no-repeat center center;
+}
+
+#u1588
+{
+	z-index: 230;
+	width: 45px;
+	height: 45px;
+	border-width: 0px;
+	border-color: transparent;
+	border-radius: 100px;
+	position: relative;
+	margin-right: -10000px;
+	left: 78px;
+	background: #458EFF url("../images/instagram.png") no-repeat center center;
+}
+
+#u1582
+{
+	z-index: 228;
+	width: 45px;
+	height: 45px;
+	border-width: 0px;
+	border-color: transparent;
+	border-radius: 100px;
+	position: relative;
+	margin-right: -10000px;
+	left: 156px;
+	background: #55ACEE url("../images/twitter.png") no-repeat center center;
+}
+
 #pu1064
 {
 	width: 0.01px;
 	margin-left: -100px;
+	margin-top: 64px;
 }
 
 #u1064
@@ -93,7 +160,7 @@
 #u1064-bw
 {
 	z-index: 10;
-	margin-top: 933px;
+	margin-top: 759px;
 	height: 534px;
 }
 
@@ -111,7 +178,7 @@
 #u1857-bw
 {
 	z-index: 11;
-	margin-top: 382px;
+	margin-top: 208px;
 	height: 577px;
 }
 
@@ -123,6 +190,15 @@
 	border-color: transparent;
 	background-color: #E9E9EA;
 	padding-bottom: 27px;
+}
+
+#u1273_align_to_page,#u1854_align_to_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 980px;
+	left: -100px;
 }
 
 #ppu1255
@@ -810,7 +886,7 @@
 {
 	z-index: 12;
 	min-height: 533px;
-	margin-top: 399px;
+	margin-top: 225px;
 }
 
 #u1207
@@ -824,7 +900,7 @@
 	background-color: #E9E9EA;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 953px;
+	margin-top: 779px;
 	left: 99px;
 	padding: 6px 26px 41px 1px;
 }
@@ -1012,80 +1088,6 @@
 	position: relative;
 }
 
-#u1279
-{
-	z-index: 224;
-	min-height: 398.7896769934304px;
-	border-color: #000000;
-	padding-bottom: 0px;
-	background: transparent url("../images/background-justin_too-monument_valley.jpg") no-repeat center top;
-	background-size: cover;
-}
-
-#u1273_align_to_page,#u1854_align_to_page,#u1279_align_to_page
-{
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
-	width: 980px;
-	left: -100px;
-}
-
-#u1279_position_content
-{
-	margin-bottom: -92px;
-	padding-top: 64px;
-	width: 100%;
-}
-
-#pu1585
-{
-	width: 0.01px;
-	left: 478px;
-	position: relative;
-}
-
-#u1585
-{
-	z-index: 232;
-	width: 45px;
-	height: 45px;
-	border-width: 0px;
-	border-color: transparent;
-	border-radius: 100px;
-	position: relative;
-	margin-right: -10000px;
-	background: #3B5998 url("../images/facebook.png") no-repeat center center;
-}
-
-#u1588
-{
-	z-index: 230;
-	width: 45px;
-	height: 45px;
-	border-width: 0px;
-	border-color: transparent;
-	border-radius: 100px;
-	position: relative;
-	margin-right: -10000px;
-	left: 78px;
-	background: #458EFF url("../images/instagram.png") no-repeat center center;
-}
-
-#u1582
-{
-	z-index: 228;
-	width: 45px;
-	height: 45px;
-	border-width: 0px;
-	border-color: transparent;
-	border-radius: 100px;
-	position: relative;
-	margin-right: -10000px;
-	left: 156px;
-	background: #55ACEE url("../images/twitter.png") no-repeat center center;
-}
-
 #u1283
 {
 	z-index: 226;
@@ -1097,9 +1099,10 @@
 	border-color: #FFFFFF;
 	background-color: transparent;
 	border-radius: 300px;
-	left: 416px;
-	margin-top: 56px;
 	position: relative;
+	margin-right: -10000px;
+	margin-top: -8px;
+	left: 416px;
 }
 
 #u1283:hover
@@ -1108,18 +1111,12 @@
 	box-shadow: 0px 8px 8px rgba(0,0,0,0.3);
 	width: 310px;
 	min-height: 0px;
-	margin: 56px 0px 0px;
+	margin: -8px -10000px 0px 0px;
 }
 
 #u1283 .clip_frame
 {
 	-webkit-border-radius: 292px 292px 292px 292px;
-}
-
-#u1279-bw
-{
-	z-index: 224;
-	min-height: 398.7896769934304px;
 }
 
 #u1860

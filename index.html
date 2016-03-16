@@ -13,7 +13,7 @@
   <title>Justin Too | Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?23585068"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?403876696" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?370822313" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?4029183858"/>
@@ -49,6 +49,14 @@ var __adobewebfontsappname__ = "muse";
        <a class="nonblock nontext clip_frame grpelem" id="u1820" href="http://www.justintoo.com"><!-- image --><img class="block" id="u1820_img" src="images/logo-justin-too.png" alt="" title="Justin Too" width="224" height="37"/></a>
       </div>
      </div>
+    </div>
+    <div class="browser_width mse_pre_init" id="u1279-bw">
+     <div class="museBGSize" id="u1279"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="pu1585"><!-- group -->
+     <a class="nonblock nontext rounded-corners grpelem" id="u1585" href="https://www.facebook.com/mrjustintoo" target="_blank" title="Justin's Facebook Page @mrjustintoo"><!-- simple frame --></a>
+     <a class="nonblock nontext rounded-corners grpelem" id="u1588" href="https://www.instagram.com/mrjustintoo" target="_blank" title="Justin's Instagram @mrjustintoo"><!-- simple frame --></a>
+     <a class="nonblock nontext rounded-corners grpelem" id="u1582" href="https://twitter.com/mrjustintoo" target="_blank" title="Justin's Twitter @mrjustintoo"><!-- simple frame --></a>
     </div>
     <div class="clearfix colelem" id="pu1064"><!-- group -->
      <div class="browser_width grpelem" id="u1064-bw">
@@ -239,20 +247,7 @@ var __adobewebfontsappname__ = "muse";
        </div>
       </div>
      </div>
-     <div class="browser_width grpelem" id="u1279-bw">
-      <div class="museBGSize" id="u1279"><!-- column -->
-       <div class="clearfix" id="u1279_align_to_page">
-        <div class="position_content" id="u1279_position_content">
-         <div class="clearfix colelem" id="pu1585"><!-- group -->
-          <a class="nonblock nontext rounded-corners grpelem" id="u1585" href="https://www.facebook.com/mrjustintoo" target="_blank" title="Justin's Facebook Page @mrjustintoo"><!-- simple frame --></a>
-          <a class="nonblock nontext rounded-corners grpelem" id="u1588" href="https://www.instagram.com/mrjustintoo" target="_blank" title="Justin's Instagram @mrjustintoo"><!-- simple frame --></a>
-          <a class="nonblock nontext rounded-corners grpelem" id="u1582" href="https://twitter.com/mrjustintoo" target="_blank" title="Justin's Twitter @mrjustintoo"><!-- simple frame --></a>
-         </div>
-         <a class="nonblock nontext shadow rounded-corners clip_frame colelem" id="u1283" href="http://www.justintoo.com"><!-- image --><img class="block" id="u1283_img" src="images/picture-justin_too.jpg" alt="" width="310" height="310"/></a>
-        </div>
-       </div>
-      </div>
-     </div>
+     <a class="nonblock nontext shadow rounded-corners clip_frame grpelem" id="u1283" href="http://www.justintoo.com"><!-- image --><img class="block" id="u1283_img" src="images/picture-justin_too.jpg" alt="" width="310" height="310"/></a>
     </div>
     <div class="browser_width colelem" id="u1860-bw">
      <div class="shadow" id="u1860"><!-- column -->
@@ -305,8 +300,9 @@ Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#u1064').registerBackgroundPositionScrollEffect([{"in":[-Infinity,756.09],"speed":[0,0]},{"in":[756.09,Infinity],"speed":[0,0]}]);/* scroll effect */
+$('#u1279-bw').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[null,0]},{"in":[0,Infinity],"speed":[null,1]}]);/* scroll effect */
 $('#u1279').registerBackgroundPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
+$('#u1064').registerBackgroundPositionScrollEffect([{"in":[-Infinity,960.6],"speed":[0,0]},{"in":[960.6,Infinity],"speed":[0,0]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 } catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
